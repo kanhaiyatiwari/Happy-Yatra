@@ -1,5 +1,9 @@
 package com.yatra.Repositories;
 
-public interface BusRepo {
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import com.yatra.entities.users.Bus;
+
+public interface BusRepo  extends JpaRepository<Bus, Integer>{
 
 }

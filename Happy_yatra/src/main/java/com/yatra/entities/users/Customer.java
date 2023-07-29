@@ -15,7 +15,7 @@ public class Customer {
 private String email;
     private String name;
 	private String password;
-	private Bus bus;
+	//private Bus bus;
 	private int price_pr_km;
 	
 	
